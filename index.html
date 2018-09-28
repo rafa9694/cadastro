@@ -13,7 +13,7 @@
             <p class="dados">Sobrenome:</p>
             <input type="text" class ="dados" id="sobreNome">
             <p class="dados">Email:</p>
-            <input type="email" placeholder="seu_email@gmail.com" pattern=".+@gmail.com" class="dados" id="email">
+            <input type="email" placeholder="email@gmail.com" pattern=".+@gmail.com" class="dados" id="email">
             <p class="dados">Curso:</p>
             <input type="text" class="dados" id="curso">
             <p class="dados">Idade:</p>
@@ -33,6 +33,12 @@
             <p id = "saida"></p>
             <button type="button" id="apagabutton" onclick="sair()">Sair</button>
         </div>
-        
+        <div id ="boxupdate">
+            <p id = "Update"></p><br>
+            <p>Nome:</p>
+            <input id="updateNome" type="text">
+            <button type="button"  onclick="atualizar()">Confirmar</button>
+            <button type="button"  onclick="sairUpdate()">Sair</button>
+        </div>
     </body>
 </html>
