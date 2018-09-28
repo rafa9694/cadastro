@@ -1,0 +1,125 @@
+*{
+    vertical-align: top;
+}
+#formulario{
+    /* margin: auto; */
+    width: 20%;
+    position: relative;
+    border: 3px solid rgb(32, 36, 32);
+    padding: 10px;
+    display: inline-block;    
+}
+.dados{
+    width: 40%;
+    position: relative;
+    left: 25%;
+}
+.buttons{
+    margin-top: 10px;
+    width: 21%;
+    position: relative;
+    left: 25%;
+    top:5%;
+    background-color: aliceblue;
+    border: 1px solid rgb(124,115,116);
+    border-radius: 5px;
+    color: black;
+    -webkit-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+}
+.buttons:hover{
+    margin-top: 10px;
+    width: 21%;
+    position: relative;
+    left: 25%;
+    top:5%;
+    background-color: rgb(124, 115, 116);
+    border-radius: 5px rgb(124,115,116);
+    color: aliceblue;
+}
+
+#Pesquisa{
+    margin-top: 10px;
+    position: relative;
+    border: 1px;
+    left: 25%;
+}
+#pesquisa{
+    width: 40%;
+}
+#Pesquisa button{
+    display: block;
+    margin-top: 2px;
+    position: relative;
+    left : 12.5%; 
+    border: 1px solid;
+    background-color:  aliceblue;
+    border-radius: 5px ;
+    color: rgb(0, 0, 0);
+    padding: 4px; 
+    padding-left: 4px;
+    -webkit-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+}
+#Pesquisa button:hover {
+    margin-top: 2px;
+    position: relative;
+    border: 1px;
+    background-color: rgb(124, 115, 116);
+    border-radius: 5px ;
+    color: aliceblue;
+    padding: 4px; 
+    padding-left: 4px;
+
+}
+#deletabutton {
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 3px;
+    color: aliceblue; 
+}
+#deletabutton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    color: crimson; 
+}
+#saida p {
+    margin: 2px;
+    
+}
+#boxsaida{
+    display: inline-block;
+    visibility: hidden;
+    border:  3px solid rgb(32, 36, 32);
+    position: relative;
+    width: 60%;
+}
+#apagabutton{
+    position: relative;
+    width: 40%;
+    left: 30%;
+}
+#boxupdate{
+    display: inline-block;
+    visibility: hidden;
+    border:  3px solid rgb(32, 36, 32);
+    position: relative;
+    width: 17%; 
+}
+#updatebutton{
+    background-color: rgb(33, 63, 196);
+    border: 1px solid rgb(33, 63, 196);
+    border-radius: 3px;
+    color: aliceblue;    
+}
+#updatebutton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    color: rgb(33, 63, 196); 
+}
+
+#boxupdate p{
+    margin: 2px;
+}
